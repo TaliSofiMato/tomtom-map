@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.app {
+  height: 600px;
+  width: 100vh
+}
+
+.map{
+  height: 100%;
+  width: 100%;
+}
+.marker{
+  background-image: url('../../Downloads/To\ that\ person\ who\ always\ downvotes\ my\ images\ -\ Imgur.gif');
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: yellow;
+  border-radius: 11px;
+  border: solid 3px darkslategrey
+}
+.marker-delivery{
+  width: 22px;
+  height: 22px;
+  background-color: red;
+}
